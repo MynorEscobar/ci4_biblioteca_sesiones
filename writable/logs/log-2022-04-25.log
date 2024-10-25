@@ -1,0 +1,45 @@
+CRITICAL - 2022-04-25 19:42:46 --> Invalid file: prestamos/listar_prestamos.php
+#0 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prestamos/lista...')
+#1 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('prestamos/lista...', Array, true)
+#2 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\app\Controllers\Prestamos.php(14): view('prestamos/lista...', Array)
+#3 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Prestamos->listarPrestamos()
+#4 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#5 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 19:43:21 --> Invalid file: prestamos/listar_prestamos.php
+#0 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prestamos/lista...')
+#1 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('prestamos/lista...', Array, true)
+#2 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\app\Controllers\Prestamos.php(14): view('prestamos/lista...', Array)
+#3 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Prestamos->listarPrestamos()
+#4 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#5 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-25 19:44:33 --> Invalid file: prestamos/listar_prestamos.php
+#0 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prestamos/lista...')
+#1 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('prestamos/lista...', Array, true)
+#2 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\app\Controllers\Prestamos.php(14): view('prestamos/lista...', Array)
+#3 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Prestamos->listarPrestamos()
+#4 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#5 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-04-25 21:33:30 --> Table 'dw2022_biblioteca.dw_datos_prestamo' doesn't exist
+CRITICAL - 2022-04-25 21:33:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\app\Controllers\Prestamos.php(29): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Prestamos->listarDatosPrestamos()
+#3 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#4 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-25 21:35:14 --> Invalid file: prestamos/listarPrestamos2.php
+#0 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('prestamos/lista...')
+#1 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('prestamos/lista...', Array, true)
+#2 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\app\Controllers\Prestamos.php(30): view('prestamos/lista...', Array)
+#3 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Prestamos->listarDatosPrestamos()
+#4 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#5 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

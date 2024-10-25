@@ -1,0 +1,78 @@
+CRITICAL - 2022-03-28 19:05:43 --> Invalid file: empleados/frm_modificar_empleado.php
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados/frm_m...')
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/frm_m...', Array, true)
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(57): view('empleados/frm_m...', Array)
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->frmModificarEmpleado('1002')
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 19:05:45 --> Invalid file: empleados/frm_modificar_empleado.php
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados/frm_m...')
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/frm_m...', Array, true)
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(57): view('empleados/frm_m...', Array)
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->frmModificarEmpleado('1001')
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 19:06:26 --> Invalid file: empleados/frm_modificar_empleado.php
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados/frm_m...')
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/frm_m...', Array, true)
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(57): view('empleados/frm_m...', Array)
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->frmModificarEmpleado('1001')
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-28 19:07:21 --> Invalid file: empleados/frm_modificar_empleado.php
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('empleados/frm_m...')
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/frm_m...', Array, true)
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(60): view('empleados/frm_m...', Array)
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->frmModificarEmpleado('1001')
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-28 20:09:06 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-03-28 20:09:25 --> Cannot use object of type App\Models\Empleado as array
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/form_...', Array, true)
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(60): view('empleados/form_...', Array)
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->frmModificarEmpleado('1')
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-28 20:09:28 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:09:39 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:09:41 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:09:51 --> Duplicate entry '1' for key 'PRIMARY'
+CRITICAL - 2022-03-28 20:09:53 --> Call to undefined method App\Models\Empleado::last
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(59): CodeIgniter\Model->__call('last', Array)
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->frmModificarEmpleado('1')
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-28 20:09:56 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:07 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:09 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:12 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:14 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:17 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:19 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:22 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:25 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:10:58 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:11:06 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:14:23 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:14:27 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:15:21 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:15:31 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:17:14 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:17:49 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:17:51 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:18:25 --> Duplicate entry '1' for key 'PRIMARY'
+ERROR - 2022-03-28 20:18:28 --> Duplicate entry '1' for key 'PRIMARY'

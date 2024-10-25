@@ -1,0 +1,44 @@
+CRITICAL - 2022-03-21 21:32:25 --> Undefined variable $datos
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Views\empleados\lista_empleado.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/lista...', Array, true)
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(14): view('empleados/lista...', Array)
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->cargarEmpleados()
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#7 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 21:34:47 --> Undefined variable $datos
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Views\empleados\lista_empleado.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/lista...', Array, true)
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(14): view('empleados/lista...', Array)
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->cargarEmpleados()
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#7 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 21:40:17 --> Undefined variable $datos
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Views\empleados\lista_empleado.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/lista...', Array, true)
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(14): view('empleados/lista...', Array)
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->cargarEmpleados()
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#7 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 21:40:43 --> Undefined variable $datos
+#0 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Views\empleados\lista_empleado.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\Common.php(1089): CodeIgniter\View\View->render('empleados/lista...', Array, true)
+#4 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\app\Controllers\Empleados.php(14): view('empleados/lista...', Array)
+#5 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(832): App\Controllers\Empleados->cargarEmpleados()
+#6 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#7 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\2022DW\ejemploCodeIgniter4_18mar22\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

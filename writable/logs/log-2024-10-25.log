@@ -1,0 +1,125 @@
+ERROR - 2024-10-25 05:21:44 --> Table 'bd_biblioteca.vw_prestamo' doesn't exist
+CRITICAL - 2024-10-25 05:21:44 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\ci4_biblioteca_sesiones\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Prestamos.php(21): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Prestamos->listarPrestamos2()
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#4 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-10-25 05:22:02 --> Table 'bd_biblioteca.vw_datos_prestamo' doesn't exist
+CRITICAL - 2024-10-25 05:22:02 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\ci4_biblioteca_sesiones\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Prestamos.php(29): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Prestamos->listarDatosPrestamos()
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Prestamos))
+#4 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-10-25 05:25:48 --> Unknown column 'passworid' in 'where clause'
+CRITICAL - 2024-10-25 05:25:48 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\ci4_biblioteca_sesiones\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-10-25 05:27:43 --> Unknown column 'passworid' in 'where clause'
+CRITICAL - 2024-10-25 05:27:43 --> Call to a member function getResult() on bool
+#0 C:\laragon\www\ci4_biblioteca_sesiones\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(12): CodeIgniter\BaseModel->findAll()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-10-25 05:30:38 --> Undefined variable $ejecutar
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\laragon\\www\\...', 18)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:34:16 --> Attempt to read property "tipo_id" on string
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 24)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:36:07 --> Call to a member function getRow() on array
+#0 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-25 05:37:04 --> Array to string conversion
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 15)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:37:41 --> Array to string conversion
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\laragon\\www\\...', 15)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:38:45 --> Undefined array key "tipo_id"
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\laragon\\www\\...', 26)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:39:44 --> Attempt to read property "tipo_id" on array
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 26)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:41:17 --> Attempt to read property "codigo" on string
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 21)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:42:16 --> Attempt to read property "codigo" on string
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 21)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:43:53 --> Attempt to read property "codigo" on string
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 21)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:44:00 --> Attempt to read property "codigo" on string
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\laragon\\www\\...', 21)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-10-25 05:44:54 --> Cannot access offset of type string on string
+#0 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-10-25 06:14:46 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\laragon\www\ci4_biblioteca_sesiones\app\Controllers\Usuarios.php(13): count(NULL)
+#1 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(832): App\Controllers\Usuarios->iniciarSesion()
+#2 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\laragon\www\ci4_biblioteca_sesiones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\ci4_biblioteca_sesiones\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

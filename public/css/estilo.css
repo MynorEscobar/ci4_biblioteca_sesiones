@@ -1,0 +1,28 @@
+.contenedor{
+   width: 95%;
+   margin: auto;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr, td ,th{
+    border: 1px solid black;
+}
+
+.fila_par{
+    background-color: aqua;
+}
+
+.fila_impar{
+    background-color: white;
+}
+.encabezado_tabla{
+    background-color: #0767e4;
+    color: white;
+}
+.fila_par:hover, .fila_impar:hover{
+    background-color: #0767e4;
+    color: white;
+}
